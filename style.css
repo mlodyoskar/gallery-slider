@@ -1,0 +1,38 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+.header {
+  width: 100%;
+}
+.main {
+  margin-top: 5%;
+  display: flex;
+  justify-content: center;
+}
+.img {
+  width: 900px;
+}
+.images__img {
+  width: 300px;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.container__images {
+  display: flex;
+  justify-content: center;
+}
+.images {
+  list-style: none;
+  display: inline-block;
+  width: 100%;
+}
+.images__el {
+  width: 300px;
+}
